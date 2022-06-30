@@ -1,0 +1,85 @@
+:root {
+  --color-primary: #3A1643;
+  --color-secondary: #FE8432;
+  --color-white: #fff;
+  --color-dark: #312C33;
+  --color-nav-text: #1E1F5D;
+}
+#header {
+  margin-top: 4rem;
+}
+.title > h1 {
+  font-size: 100px;
+  color: var(--color-primary);
+  line-height: 7.5rem;
+}
+.mini-title {
+  margin-top: 48px;
+  font-family: "Romelio Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #fe8432;
+  text-transform: uppercase;
+}
+
+.description {
+  width: 70%;
+  margin-top: 13px;
+  color: var(--color-dark);
+}
+.success-desc {
+  width: 50%;
+}
+.header-image {
+  width: 50%;
+  height: auto;
+}
+.header-image > img {
+  width: 100%;
+}
+#gallery {
+  height: 100%;
+}
+.gallery-description,
+.gallery-title {
+  color: var(--color-dark);
+}
+
+.gallery-title {
+  margin-top: 44px;
+}
+
+.gallery-description {
+  margin-top: 30px;
+}
+
+.gallery-images {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.gallery-item {
+  width: 25%;
+  padding: 10px;
+}
+
+.gallery-item button {
+  cursor: pointer;
+}
+
+.success-footer {
+  margin-top: 96px;
+}
+
+@media (min-width: 992px) {
+  .gallery-description {
+    width: 75%;
+  }
+}
