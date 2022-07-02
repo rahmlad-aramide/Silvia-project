@@ -16,7 +16,7 @@
         <ul class="flex navlist">
           <li><a class="navlink link" href="personaggio.html">PERSONAGGIO</a></li>
           <li><a class="navlink link active" href="#">SUCCESSI</a></li>
-          <li><a class="navlink link" href="gallery.html">GALLERY</a></li>
+          <li><a class="navlink link pr-0" href="gallery.html">GALLERY</a></li>
         </ul>
       </div>
     </nav>
@@ -57,28 +57,28 @@
         <div class="row">
           <div class="gallery-images">
             <div class="gallery-item pl-0">
-              <button class="gallery-image"><img src="images/gallery/g1.png" alt="Gallery 1" /></button>
+              <button id="0" class="gallery-image 0"><img src="images/gallery/g1.png" alt="Gallery 1" /></button>
             </div>
             <div class="gallery-item">
-              <button class="gallery-image"><img src="images/gallery/g2.png" alt="Gallery 2" /></button>
+              <button id="1" class="gallery-image 1"><img src="images/gallery/g2.png" alt="Gallery 2" /></button>
             </div>
             <div class="gallery-item">
-              <button class="gallery-image"><img src="images/gallery/g3.png" alt="Gallery 3" /></button>
+              <button id="2" class="gallery-image 2"><img src="images/gallery/g3.png" alt="Gallery 3" /></button>
             </div>
             <div class="gallery-item pr-0">
-              <button class="gallery-image"><img src="images/gallery/g4.png" alt="Gallery 4" /></button>
+              <button id="3" class="gallery-image 3"><img src="images/gallery/g4.png" alt="Gallery 4" /></button>
             </div>
             <div class="gallery-item pl-0">
-              <button class="gallery-image"><img src="images/gallery/g5.png" alt="Gallery 5" /></button>
+              <button id="4" class="gallery-image 4"><img src="images/gallery/g5.png" alt="Gallery 5" /></button>
             </div>
             <div class="gallery-item">
-              <button class="gallery-image"><img src="images/gallery/g6.png" alt="Gallery 6" /></button>
+              <button id="5" class="gallery-image 5"><img src="images/gallery/g6.png" alt="Gallery 6" /></button>
             </div>
             <div class="gallery-item">
-              <button class="gallery-image"><img src="images/gallery/g7.png" alt="Gallery 7" /></button>
+              <button id="6" class="gallery-image 6"><img src="images/gallery/g7.png" alt="Gallery 7" /></button>
             </div>
             <div class="gallery-item pr-0">
-              <button class="gallery-image"><img src="images/gallery/g8.png" alt="Gallery 8" /></button>
+              <button id="7" class="gallery-image 7"><img src="images/gallery/g8.png" alt="Gallery 8" /></button>
             </div>
           </div>
         </div>
@@ -146,17 +146,14 @@
 
     <section id="overlay">
       <div class="overlay-container flex align-center justify-center">
+        <button class="close" id="close">CLOSE</button>
         <div class="overlay-item">
-          <div class="flex justify-between align-center">
-            <img id="overlay-image" alt="Overlay Image" />
-            <div class="overlay-desc">
-              <h1>Rumore</h1>
-              <div class="mini-title">FelicitA’ ta’ta’, 1974</div>
-              <p class="overlay-item-desc">
-                Rumore, la storia di una donna, che ha lasciato il compagno/marito, perché “ho deciso che facevo da me”, ma una sera, sola in casa,
-                sentendo un rumore, vorrebbe “tornare indietro con il tempo”, realizzando che “da sola non mi sento sicura, mai”. Un testo
-                apparentemente in controtendenza, in anni di acceso femminismo.
-              </p>
+          <div class="flex justify-between">
+            <div style="width:45%">
+              <img id="overlay-image" alt="Overlay Image" />
+            </div>
+            <div style="width: 55%;" class="overlay-desc">
+              
             </div>
           </div>
         </div>

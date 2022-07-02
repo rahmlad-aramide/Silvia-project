@@ -2,10 +2,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: none;
   z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #overlay::after {
@@ -19,28 +20,41 @@
 }
 
 .overlay-item {
-  height: 670px;
-  width: 90%;
-  padding: 0 65px 70px;
-  z-index: 1;
+  width: 100%;
+  z-index: 999;
   background-color: white;
   position: relative;
 }
 
 #overlay-image {
-  width: 595px;
-  height: 600px;
+  width: 100%;
+  max-width: 450px;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .overlay-desc {
-  margin-left: 110px;
+  margin: 5rem;
+}
+.overlay-item-desc {
+  text-align: justify;
 }
 
 .overlay-container {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  margin: 5rem auto;
 }
-
+.close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 999;
+  color: white;
+  background: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+}
 .overlay-desc h1 {
   color: #312c33;
 }
