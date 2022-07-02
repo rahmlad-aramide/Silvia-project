@@ -46,8 +46,8 @@
 }
 .close {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
   z-index: 999;
   color: white;
   background: none;
