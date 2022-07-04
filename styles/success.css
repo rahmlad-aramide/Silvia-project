@@ -41,6 +41,7 @@
 }
 #gallery {
   height: 100%;
+  margin-bottom: 4rem;
 }
 .gallery-description,
 .gallery-title {

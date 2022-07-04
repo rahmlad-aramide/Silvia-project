@@ -7,11 +7,11 @@ const overlayItem = document.getElementById("overlay-item");
 
 
 Array.from(images).forEach((image) => {
-  image.addEventListener("mouseover", (e) => {
+  image.addEventListener("click", (e) => {
     overlay.style.display = "block";
     const imageSrc = e.target.src;
     overlayImage.src = imageSrc;
-    console.log(overlayImage.src);
+    // console.log(overlayImage.src);
 
     if (image.classList.contains("0")) {
       overlayDesc.innerHTML = `
@@ -128,18 +128,13 @@ Array.from(images).forEach((image) => {
   });
 });
 
-// overlayItem.addEventListener("mouseleave", function (e) {
-//   overlay.style.display = "none";
-//   // if (e.target === overlay || e.target === closeBtn) {
-//   // }
-// });
 document.addEventListener("click", function (e) {
   if (e.target === overlay || e.target === closeBtn) {
     overlay.style.display = "none";
   }
 });
-overlayItem.addEventListener('mouseleave', function () {
- if(overlay.style.display = "block"){
-   overlay.style.display = 'none';
-  }
-})
+// overlayItem.addEventListener('mouseleave', function () {
+//  if(overlay.style.display = "block"){
+//    overlay.style.display = 'none';
+//   }
+// })

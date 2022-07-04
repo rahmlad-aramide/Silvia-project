@@ -27,14 +27,16 @@
 }
 
 #overlay-image {
-  width: 100%;
-  max-width: 450px;
+  /* width: 100%; */
+  width: 360px;
+  /* height: 312; */
+  /* max-width: 420px; */
   margin-left: 2.5rem;
   margin-bottom: 2.5rem;
 }
 
 .overlay-desc {
-  margin: 5rem;
+  margin: 4rem;
 }
 .overlay-item-desc {
   text-align: justify;
